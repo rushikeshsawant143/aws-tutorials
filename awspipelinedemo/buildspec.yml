@@ -6,7 +6,7 @@ phases:
       java: corretto11
   build:
     commands:
-      - mvn clean package
+      - mvn clean install
   post_build:
     commands:
       ## aws s3 cp target/*.war s3://myhhbucket23 . We don't need this step.
