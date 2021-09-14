@@ -19,4 +19,3 @@ artifacts:
     - awspipelinedemo/TestXMLFile.xml
     - awspipelinedemo/appspec.yml
    
-  discard-paths: yes
