@@ -13,10 +13,10 @@ phases:
       - echo Build completed
 artifacts:
   files:
-    - target/*.war
-    - scripts/server_start.sh
-    - scripts/server_stop.sh
-    - TestXMLFile.xml
-    - appspec.yml
+    - awspipelinedemo/target/*.war
+    - awspipelinedemo/scripts/server_start.sh
+    - awspipelinedemo/scripts/server_stop.sh
+    - awspipelinedemo/TestXMLFile.xml
+    - awspipelinedemo/appspec.yml
    
   discard-paths: yes
