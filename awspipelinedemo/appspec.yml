@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 
 files:
-  - source: /awspipelinedemo.war
+  - source: awspipelinedemo/target/awspipelinedemo.war
     destination: /opt/apache-tomcat-9.0.35/webapps
-  - source: /TestXMLFile.xml
+  - source: awspipelinedemo/TestXMLFile.xml
     destination: /opt/apache-tomcat-9.0.35/webapps
     
 # hooks:
