@@ -7,12 +7,12 @@ files:
   - source: awspipelinedemo/TestXMLFile.xml
     destination: /opt/apache-tomcat-9.0.35/webapps
     
-# hooks:
-#   AfterInstall:
-#     - location: server_start.sh
-#       timeout: 300
-#       runas: root
-#   ApplicationStop:
-#     - location: server_stop.sh
-#       timeout: 300
-#       runas: root 
+hooks:
+  AfterInstall:
+    - location: server_start.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: server_stop.sh
+      timeout: 300
+      runas: root 
