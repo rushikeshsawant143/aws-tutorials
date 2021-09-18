@@ -9,10 +9,10 @@ files:
     
 hooks:
   AfterInstall:
-    - location: server_start.sh
+    - location: server_stop.sh
       timeout: 300
       runas: root
   ApplicationStop:
-    - location: server_stop.sh
+    - location: server_start.sh
       timeout: 300
       runas: root 
