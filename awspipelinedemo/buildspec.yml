@@ -6,7 +6,6 @@ phases:
       java: corretto11
   build:
     commands:
-      - cd awspipelinedemo
       - mvn clean package
   post_build:
     commands:
